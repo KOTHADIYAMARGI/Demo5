@@ -10,7 +10,9 @@ namespace Demo5.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var p = "5";
+
+            return View(p);
         }
 
         public ActionResult About()
